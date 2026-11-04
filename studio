@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Start OpenImage Studio. Options: --open (open the browser), --lan (let phones and other
+# computers on your network open it), --port N, --profile NAME. See scripts/start.sh.
+exec "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/scripts/start.sh" "$@"

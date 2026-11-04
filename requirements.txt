@@ -1,0 +1,18 @@
+# Pinned to the versions tested on 3 Nov 2026. torch and torchvision come from the CUDA 12.8 index
+# (scripts/install.sh installs them first); everything else from PyPI.
+diffusers==0.42.1
+transformers==5.22.1
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface-hub==2.4.0
+hf-xet==1.8.0
+pillow==12.3.0
+pillow-heif==1.8.1
+numpy==2.5.4
+scipy==1.18.1
+fastapi==0.162.0
+starlette==1.10.0
+uvicorn==0.54.0
+pydantic==2.14.2
+gradio==6.31.0
+pytest==9.2.0
